@@ -1,0 +1,32 @@
+@import "../variables/variables";
+
+nav div a img{
+    width: 60px;
+    
+}
+.logo-menu{
+    display: flex;
+    justify-content: center;
+}
+.menu-principal{
+    ul :hover{
+        background-color: $color-principal;
+    }
+}
+.panel{
+    button{
+        border: none;
+    }
+    button :hover{
+        color: $color-secundario;
+        text-transform:capitalize;
+    }
+}
+@media screen and (max-width: 991px){
+    nav div a img{
+        width: 100px;
+        display: flex;
+        margin: auto;
+    }
+}
+// siento que el logo no termina quedando al medio, creo es un error utilizar flexbox ahi no?

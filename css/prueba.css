@@ -1,0 +1,33 @@
+#carouselExampleControls {
+  display: flex;
+  margin: auto;
+  padding: 25px;
+  max-width: 80%;
+  min-width: 70%;
+  max-height: 75%; }
+
+nav div a img {
+  width: 60px; }
+
+.logo-menu {
+  display: flex;
+  justify-content: center; }
+
+.menu-principal ul :hover {
+  background-color: #F8D313; }
+
+.panel button {
+  border: none; }
+
+.panel button :hover {
+  color: #DB7696;
+  text-transform: capitalize; }
+
+@media screen and (max-width: 991px) {
+  nav div a img {
+    width: 100px;
+    display: flex;
+    margin: auto; } }
+
+.main-principal {
+  background-color: #dbcece; }
