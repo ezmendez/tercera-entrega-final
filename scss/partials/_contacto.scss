@@ -1,0 +1,16 @@
+@import "../variables/variables";
+.background-formulario{
+    display: flex;
+    margin: auto;
+  
+    max-width: 90%;
+    min-width: 80%;
+    max-height: 75%;
+}
+.cuerpo-formulario{
+    padding: 5%;
+    width: 85%;
+    font-family: 'Lato', sans-serif;
+    
+}
+.imagen-contacto :hover {filter: sepia(40%);}
